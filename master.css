@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.bio-main {
+	background-image: url("background.jpg");
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1000px;
+	width: 100%;
+	box-shadow: inset 0px 0px 30px 10px rgba(0,0,0,0.8);
+}
+
+.intro-summary-content {
+	color:white;
+	padding: 50px;
+
+}
+
+#white-box {
+	background:rgba(255,255,255,0.5);
+}
+
+.tabs {
+	color:white;
+}
+
+.about-me-main {
+}
+
+
+/*Effects on Skill Badges*/
+
+.summary-content {
+	color:black;
+}
+
+#css:hover, #html:hover, #js:hover, #jquery:hover, #sql:hover, #ruby:hover, #rails:hover, #postgresql:hover, #git:hover, #photoshop:hover, #bootstrap:hover {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  position:relative;
+  z-index:5;
+}
+
+.popover-content {
+	color:red;
+}
+
+.popover {
+	border-radius: 3px;
+}
+
+/*Effect on Social Icons*/
+
+#github:hover, #linkedin:hover, #facebook:hover, #twitter:hover, #google:hover, #email:hover, #whatsapp:hover {
+	-webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	-o-transform: scale(1.3);
+	position: relative;
+	z-index: 5;
+}

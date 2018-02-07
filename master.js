@@ -1,0 +1,59 @@
+
+$(document).ready(function() {
+ $('#html').popover({
+        trigger:'hover',
+        content:"HTML 5",
+        placement:'bottom'
+    });
+$('#css').popover({
+        trigger:'hover',
+        content:"CSS 3",
+        placement:'bottom'
+    });
+$('#js').popover({
+        trigger:'hover',
+        content:"JavaScript",
+        placement:'bottom'
+    });
+$('#jquery').popover({
+        trigger:'hover',
+        content:"JQUERY",
+        placement:'bottom'
+    });
+$('#ruby').popover({
+        trigger:'hover',
+        content:"Ruby",
+        placement:'bottom'
+    });
+$('#rails').popover({
+        trigger:'hover',
+        content:"Rails",
+        placement:'bottom'
+    });
+$('#sql').popover({
+        trigger:'hover',
+        content:"SQL",
+        placement:'bottom'
+    });
+$('#postgresql').popover({
+        trigger:'hover',
+        content:"Postgresql",
+        placement:'bottom'
+    });
+$('#git').popover({
+        trigger:'hover',
+        content:"Git5",
+        placement:'bottom'
+    });
+$('#bootstrap').popover({
+        trigger:'hover',
+        content:"Bootstrap",
+        placement:'bottom'
+    });
+$('#photoshop').popover({
+        trigger:'hover',
+        content:"Photoshop",
+        placement:'bottom'
+    });
+
+ });
