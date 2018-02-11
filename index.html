@@ -52,158 +52,295 @@
 			<nav class="container navbar-default">
 				<div class="tabs row">
 					<ul class="nav text-center">
-						<li class="col-lg-2 col-md-2 col-sm-2  col-lg-offset-1 col-md-offset-1"><a href="">About Me</a></li>
-						<li class="col-lg-2 col-md-2 col-sm-2"><a href="">Resume</a></li>
-						<li class="col-lg-2 col-md-2 col-sm-2"><a href="">Portfolio</a></li>
-						<li class="col-lg-2 col-md-2 col-sm-2"><a href="">Testmonials</a></li>
-						<li class="col-lg-2 col-md-2 col-sm-2"><a href="">Get In Touch</a></li>
+						<li id ="about-me-tab" class="col-lg-2 col-md-2 col-sm-2  col-lg-offset-1 col-md-offset-1"><a href="#">About Me</a></li>
+						<li id="resume-tab" class="col-lg-2 col-md-2 col-sm-2"><a href="#">Resume</a></li>
+						<li id="portfolio-tab" class="col-lg-2 col-md-2 col-sm-2"><a href="#">Portfolio</a></li>
+						<li id="testimonials-tab" class="col-lg-2 col-md-2 col-sm-2"><a href="#">Testmonials</a></li>
 					</ul>
 				</div>
 			</nav>
 		</div>
-		<div class="about-me-main container ">
+
+		<div id="about-me" class="about-me-main container">
 			<h2 class="text-center">About Me</h2>
 			
 		</div>
-		<div class="resume-main container">
-			<h2 class="text-center">Resume</h2>
-			<div class="text-center">
-				<a href="shanqyeet-resume-18.pdf" download="chia-shanq-yeet" >Download My Resume</a>
-				<div class="resume-content">
-					<div class="resume-education">
-						<h3>Education</h3>
-						<div class="text-left">
-							<strong>Sydney Business School <small>(On-going: 2017-2019)</small></strong>
-							<ul>
-								<li>Master of Business Administration</li>
-							</ul>
 
-							<strong>Next Academy <small>(Nov 2017 - Jan 2018)</small> <a href="http://s3-ap-southeast-1.amazonaws.com/next-academy-site/uploads/certificates/chia-shanq-yeet-1277e57f-de2d-4051-b4c3-3b0e1aae4a9f/dbe294ab0c.">View Certificate</a></strong>
-							<ul>
-								<li>Full Stack Web Development</li>
-							</ul>
 
-							<strong>Monash University <small>(2010)</small></strong>
-							<ul>
-								<li>Bachelor of Science (Biotechnology) (Honours) – Full research year by invitation only</li>
-								<li>CGPA: 3.75/4.00, First Class Honours</li>
-								<li>Receiver of 50% scholarship by Monash University</li>
-								<li>Performed experiments and regression analysis (excel) on various materials (i.e. clay, rice husks) to study the material properties and their respective heavy metal absorptions for pollutant removal purpose</li>
-								<li>Performed optimization work and analysis on the selected material for potential industrial application</li>
-							</ul>	
+		<div id="resume" class="resume-map-main container">
+			<h2 class="text-center">Resume <small><a href="shanqyeet-resume-18.pdf" download="chia-shanq-yeet" >Download My Resume</a></small></h2>
+			<div class="page-header">
+		        <h1 id="timeline">Education</h1>
+		    </div>
+			<div class="education-map">
+			    <ul class="timeline">
+			        <li>
+			          	<div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+			          	<div class="timeline-panel">
+				            <div class="timeline-heading">
+				              <h4 class="timeline-title"><a target="_blank" href="https://www.uow.edu.au/index.html" alt="Sydney Business School">Sydney Business School - University of Wollongong</a></h4>
+				              <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i> On Going: May 2017 - April 2019</small></p>
+				            </div>
+			            	<div class="timeline-body">
+				            	<ul>
+									<li>Master of Business Administration</li>
+									<li>Managerial Concept and Skills</li>
+									<li>Accounting for Managers</li>
+									<li>Leading in Contemporary Organizations</li>
+									<li>Marketing for Strategic Decisions</li>
+									<li>Economics for Modern Business</li>
+									<li>Financial Strategy</li>
+									<li>Corporate Governance</li>
+									<li>Business Analytics</li>
+									<li>International Business Strategy</li>
+									<li>Strategic Business Making</li>
+								</ul>
+			            	</div>
+			          	</div>
+			        </li>
+			        <li class="timeline-inverted">
+			          	<div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+			          	<div class="timeline-panel">
+				            <div class="timeline-heading">
+				              	<h4 class="timeline-title"><a target="_blank" href="https://www.nextacademy.com/" alt="Next Academy">Next Academy</a></h4>
+			           			<p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i> November 2017 - January 2018</small></p>
+				            </div>
+				            <div class="timeline-body">
+				              	<ul>
+									<li>Full Stack Web Development</li>
+									<li>Ruby & Ruby on Rails</li>
+									<li>HTML, CSS, Javascript & JQuery</li>
+									<li>SQL & PostgresQL</li>
+								</ul>
+				            </div>
+				        </div>
+			        </li>
+			        <li>
+			          <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+			          <div class="timeline-panel">
+			            <div class="timeline-heading">
+			             	<h4 class="timeline-title"><a target="_blank" alt="Monash University" href="https://monash.edu.my/">Monash University</a></h4>
+		           			<p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i> January 2010 - Decembe 2010</small></p>
 
-							<strong>Monash University <small>(2007-2009)</small></strong>	
-							<ul>
+			            </div>
+			            <div class="timeline-body">
+			              <ul>
+							<li>Bachelor of Science (Biotechnology) (Honours) – Full research year by invitation only</li>
+							<li>CGPA: 3.75/4.00, First Class Honours</li>
+							<li>Receiver of 50% scholarship by Monash University</li>
+							<li>Performed experiments and regression analysis (excel) on various materials (i.e. clay, rice husks) to study the material properties and their respective heavy metal absorptions for pollutant removal purpose</li>
+							<li>Performed optimization work and analysis on the selected material for potential industrial application</li>
+						</ul>	
+			            </div>
+			          </div>
+			        </li>
+			        <li class="timeline-inverted">
+			          <div class="timeline-panel">
+			            <div class="timeline-heading">
+			              <h4 class="timeline-title"><a target="_blank" alt="Monash University" href="https://monash.edu.my/">Monash University</a></h4>
+			              <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i> February 2007 - December 2009 </small></p>
+			            </div>
+			            <div class="timeline-body">
+			              	<ul>
 								<li>Bachelor of Science (Biotechnology) – CGPA 3.13/4.00</li>
 								<li>Head of Clubs and Societies - Monash University Student Association (2008)</li>
 								<li>Student mentor for Monash University’s Induction week (2008-2009)</li>
 								<li>Committee of various university events by Monash University Student Association (2007-2009)</li>
 								<li>Club & Society Officer for Malaysian Nature Society of Monash University (2007-2008)</li>
 							</ul>
-						</div>
+			            </div>
+			          </div>
+			        </li>
+			    </ul>
+			</div>
 
-					</div>
-					<div class="resume-exp">
-						<h3>Experience</h3>
-						<div class="text-left">
-							<strong>The Green Uniter Sdn Bhd</strong>
-							<p>Co-Founder <small>(Oct 2014 - Oct 2017)</small></p>
-							<ul>
-								<li>Heading design and development of an e-marketplace system costing RM70k, with targeted launching by December 2016</li>
-								<li>Leading the planning and design of operation and customer loyalty framework</li>
-								<li>Leading the strategic planning of business launching, business development, digital marketing, content marketing and social media marketing</li>
-							</ul>
 
-							<strong>Unique Budget Sdn Bhd</strong>
-							<p>Assistant Project Manager <small>(Apr 2014 - Dec 2017)</small></p>
-	
-							<ul>
-								<li>Managed and Completed 3 Infrastructure works for serviced apartment project with total contract value of more than RM17.0mil for SP Setia Berhad, currently managing a RM12.0mil health institution project</li>
-								<li>Managing over 35 workers – covering work planning, execution, measurement, control and monitoring</li>
-								<li>Averted a crisis with potential loss of RM1.2mil due to LAD cost of RM40k per day with critical decision making, risk aversion plan and schedule restructuring work</li>
-								<li>Reduced task specific cost and production efficiency, i.e. kerb casting from RM15/meter to RM7/meter,paver block laying from 8 units/day to 14 units/day by implementing new working structure, reporting hierarchy, work monitoring system and reward system</li>
-								<li>Increased number of skilled workers (specific task expertise as compared to general worker) from 20% to over 80% with implementation of mentoring system and leader rewarding system</li>
-								<li>Engaged in the full lifecycle of project management planning, responsible for execution of all tasks described in the project plan, resource planning and allocation and deliverable quality control</li>
-								<li>Responsible for managing and ensuring good communication and information flow between stakeholders</li>
-								<li>Responsible for project management documentation work with compliance to ISO requirement</li>
-							</ul>
-						
 
-							<strong>Unique Eco Systems Sdn Bhd</strong>
-							<p>Co-Founder <small>(May 2013 - Oct 2014)</small></p>
-							<p>Key Responsibilities</p>
-							<ul>
-								<li>Successfully won the Malaysia sole distributorship (competing with 4 other applicants) for a direct selling brand, ENJO by ENJO International GmbH, Austria</li>
-								<li>Achieved a personal sale of over RM100k within 9 months with startup cost of RM70k</li>
-								<li>Conducted sales presentation to over 350 individuals</li>
-								<li>Speaker on topic of Chemical Free Cleaning at The 4th International Greentech and Eco-ProductsExhibition & Conference Malaysia 2013, KLCC</li>
-								<li>The spokesperson for business reporting and planning meeting with ENJO International GmbH</li>
-								<li>Led business development planning and responsible for recruiting and training of sales personnel</li>
-							</ul>
-
-							<strong>United Overseas Bank (Malaysia) Berhad</strong>
-							<p>Account Relationship Manager (promoted to Manager ranking on 1 January 2013) <small>(Nov 2010 - May 2013</small></p>
-							<ul>
-								<li>Achieved the top 10 in KPI performance nationwide (more than 90 Relationship Officers) for FYE 2012</li>
-								<li>Managed a portfolio of over 20 SMEs with revenue size ranging from RM40mil to RM200mil</li>
-								<li>Headed the organization of 2 events of annual team building events for area team of over 25 people</li>
-								<li>Built rapport and trust with business key persons of all clients within portfolio</li>
-								<li>Responsible for: client solicitation, client’s business requirement elicitation, financial analysis, market research, prepare credit proposal and facilitate financial facilities drawdown and utilization</li>
-							</ul>
-						</div>
-						
-					</div>
-					<div class="resume-professional-qualification">
-						<h3>Continuing Education & Professional Certification</h3>
-						<div class="text-left">
-							<ul>
-								<li>
-									Project Management Professional (Project Management Institute)
-									<a href="">View Certificate</a>
-								</li>
-								<li>
-									Business Relationship Management Professional (BRM Institute)
-									<a href="">View Certificate</a>
-								</li>
-								<li>
-									Business Analytics Specialization – University of Pennsylvania, Wharton (Coursera) （2016）
-									<a href="">View Certificate</a>
-								</li>
-								<li>
-									Business Analysis Practitioner – Business-Analysis-Excellence Pvt Ltd (IIBA Endorsed) (2016)
-									<a href="">View Certificate</a>
-								</li>
-								<li>
-									Business Analysis Master Practitioner – Business-Analysis-Excellence Pvt Ltd (IIBA Endorsed （2016）
-									<a href="">View Certificate</a>
-								</li>
-								<li>
-									The Blue Ocean Strategy Certification – Malaysia Blue Ocean Strategy Institute （2016）
-									<a href="">View Certificate</a>
-								</li>
-								<li>
-									Practitioner of Neuro-Linguistic Programming – Asia Mind Dynamics, ABNLP Approved 2013）
-									<a href="">View Certificate</a>
-								</li>
-								<li>
-									Practitioner of Time Line TherapyTM – Asia Mind Dynamics, ABNLP Approved （2013）
-									<a href="">View Certificate</a>
-								</li>
-								<li>
-									Language and Behavior Profile for Coaching – Asia Mind Dynamics （2013）
-									<a href="">View Certificate</a>
-								</li>
-							</ul>
-						</div>
-						
-					</div>
+				<div class="page-header">
+			        <h1 id="timeline">Experience</h1>
+			    </div>
+				<div class="experience-map">
+			    	<ul class="timeline">
+				        <li>
+				            <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+				            <div class="timeline-panel">
+					            <div class="timeline-heading">
+					              <h4 class="timeline-title">The Green Uniter Sdn Bhd</h4>
+					              <p><small class="text-muted"><i class="glyphicon glyphicon-user"></i> Co-Founder (October 2014 - October 2017)</small></p>
+					            </div>
+					            <div class="timeline-body">
+					            	<ul>
+										<li>Heading design and development of an e-marketplace system costing RM70k, with targeted launching by December 2016</li>
+										<li>Leading the planning and design of operation and customer loyalty framework</li>
+										<li>Leading the strategic planning of business launching, business development, digital marketing, content marketing and social media marketing</li>
+									</ul>
+					            </div>
+				         	</div>
+				        </li>
+				        <li class="timeline-inverted">
+					        <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+					        <div class="timeline-panel">
+					            <div class="timeline-heading">
+					              	<h4 class="timeline-title">Unique Budget Sdn Bhd</h4>
+				           			<p><small class="text-muted"><i class="glyphicon glyphicon-user"></i> Assistant Project Manager (April 2014 - December 2017)</small></p>
+					            </div>
+					            <div class="timeline-body">
+					                <ul>
+										<li>Managed and Completed 3 Infrastructure works for serviced apartment project with total contract value of more than RM17.0mil for SP Setia Berhad, currently managing a RM12.0mil health institution project</li>
+										<li>Managing over 35 workers – covering work planning, execution, measurement, control and monitoring</li>
+										<li>Averted a crisis with potential loss of RM1.2mil due to LAD cost of RM40k per day with critical decision making, risk aversion plan and schedule restructuring work</li>
+										<li>Reduced task specific cost and production efficiency, i.e. kerb casting from RM15/meter to RM7/meter,paver block laying from 8 units/day to 14 units/day by implementing new working structure, reporting hierarchy, work monitoring system and reward system</li>
+										<li>Increased number of skilled workers (specific task expertise as compared to general worker) from 20% to over 80% with implementation of mentoring system and leader rewarding system</li>
+										<li>Engaged in the full lifecycle of project management planning, responsible for execution of all tasks described in the project plan, resource planning and allocation and deliverable quality control</li>
+										<li>Responsible for managing and ensuring good communication and information flow between stakeholders</li>
+										<li>Responsible for project management documentation work with compliance to ISO requirement</li>
+									</ul>
+					            </div>
+				          	</div>
+				        </li>
+				        <li>
+				          <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+				          <div class="timeline-panel">
+				            <div class="timeline-heading">
+				             	<h4 class="timeline-title">Unique Eco Systems Sdn Bhd</h4>
+			           			<p><small class="text-muted"><i class="glyphicon glyphicon-user"></i> Co-Counder (May 2013 - October 2014)</small></p>
+				            </div>
+				            <div class="timeline-body">
+					             <ul>
+									<li>Successfully won the Malaysia sole distributorship (competing with 4 other applicants) for a direct selling brand, ENJO by ENJO International GmbH, Austria</li>
+									<li>Achieved a personal sale of over RM100k within 9 months with startup cost of RM70k</li>
+									<li>Conducted sales presentation to over 350 individuals</li>
+									<li>Speaker on topic of Chemical Free Cleaning at The 4th International Greentech and Eco-ProductsExhibition & Conference Malaysia 2013, KLCC</li>
+									<li>The spokesperson for business reporting and planning meeting with ENJO International GmbH</li>
+									<li>Led business development planning and responsible for recruiting and training of sales personnel</li>
+								</ul>	
+				            </div>
+				          </div>
+				        </li>
+			       		<li class="timeline-inverted">
+				          	<div class="timeline-panel">
+					            <div class="timeline-heading">
+					              <h4 class="timeline-title">United Overseas Bank (Malaysia) Berhad</h4>
+					              <p><small class="text-muted"><i class="glyphicon glyphicon-user"></i> Account Relationship Manager (promoted to manager rnaking on 1 Jan 2013) (November 2010 - May 2013)</small></p>
+					            </div>
+					            <div class="timeline-body">
+					              	<ul>
+										<li>Achieved the top 10 in KPI performance nationwide (more than 90 Relationship Officers) for FYE 2012</li>
+										<li>Managed a portfolio of over 20 SMEs with revenue size ranging from RM40mil to RM200mil</li>
+										<li>Headed the organization of 2 events of annual team building events for area team of over 25 people</li>
+										<li>Built rapport and trust with business key persons of all clients within portfolio</li>
+										<li>Responsible for: client solicitation, client’s business requirement elicitation, financial analysis, market research, prepare credit proposal and facilitate financial facilities drawdown and utilization</li>
+									</ul>
+					            </div>
+				          	</div>
+				        </li>
+				    </ul>
+				</div>
+				<div class="resume-professional-qualification">
+					<div class="page-header">
+				        <h1 id="timeline">Continuing Education & Professional Certification</h1>
+				    </div>
+				    <div class="row">
+				    	<div class="text-center col-lg-3 col-md-3">
+				    		<div>
+				    			<img src="pmp.png" alt="Project Management" width="100px" height="auto">
+				    		</div>
+				    		<p><strong>Project Management Professional</strong></p>
+				    		<p><small class="text-mute">Project Management Institute - 2016</small></p>
+				    		<a href="">View Certificate</a>
+				    	</div>
+						<div class="text-center col-lg-3 col-md-3">
+							<div>	
+				    			<img src="pmp.png" alt="Project Management" width="100px" height="auto">
+							</div>
+				    		<p><strong>Business Relationship Management Professional</strong></p>
+				    		<p><small class="text-mute">BRM Institute - 2016</small></p>
+				    		<a href="">View Certificate</a>
+				    	</div>
+				    	<div class="text-center col-lg-3 col-md-3">
+							<div>	
+				    			<img src="pmp.png" alt="Project Management" width="100px" height="auto">
+							</div>
+				    		<p><strong>Business Analytics Specialization</strong></p>
+				    		<p><small class="text-mute">University of Pennsylvania, Wharton (Coursera) - 2016</small></p>
+				    		<a href="">View Certificate</a>
+				    	</div>
+				    	<div class="text-center col-lg-3 col-md-3">
+							<div>	
+				    			<img src="pmp.png" alt="Project Management" width="100px" height="auto">
+							</div>
+				    		<p><strong>Business Analysis Practitioner (IIBA Endorsed)</strong></p>
+				    		<p><small class="text-mute">Business-Analysis-Excellence Pvt Ltd - 2016</small></p>
+				    		<a href="">View Certificate</a>
+				    	</div>
+				    	<div class="text-center col-lg-3 col-md-3">
+							<div>	
+				    			<img src="pmp.png" alt="Project Management" width="100px" height="auto">
+							</div>
+				    		<p><strong>Business Analysis Master Practitioner (IIBA Endorsed)</strong></p>
+				    		<p><small class="text-mute">Business-Analysis-Excellence Pvt Ltd - 2016</small></p>
+				    		<a href="">View Certificate</a>
+				    	</div>
+				    	<div class="text-center col-lg-3 col-md-3">
+							<div>	
+				    			<img src="pmp.png" alt="Project Management" width="100px" height="auto">
+							</div>
+				    		<p><strong>The Blue Ocean Strategy Certification</strong></p>
+				    		<p><small class="text-mute">Malaysia Blue Ocean Strategy Institute - 2016</small></p>
+				    		<a href="">View Certificate</a>
+				    	</div>
+				    	<div class="text-center col-lg-3 col-md-3">
+							<div>	
+				    			<img src="pmp.png" alt="Project Management" width="100px" height="auto">
+							</div>
+				    		<p><strong>Practitioner of Neuro-Linguistic Programming (ABNLP Approved)</strong></p>
+				    		<p><small class="text-mute">Asia Mind Dynamics - 2013</small></p>
+				    		<a href="">View Certificate</a>
+				    	</div>
+				    	<div class="text-center col-lg-3 col-md-3">
+							<div>	
+				    			<img src="pmp.png" alt="Project Management" width="100px" height="auto">
+							</div>
+				    		<p><strong>Practitioner of Time Line TherapyTM (ABNLP Approved)</strong></p>
+				    		<p><small class="text-mute">Asia Mind Dynamics - 2013</small></p>
+				    		<a href="">View Certificate</a>
+				    	</div>
+				    	<div class="text-center col-lg-3 col-md-3">
+							<div>	
+				    			<img src="pmp.png" alt="Project Management" width="100px" height="auto">
+							</div>
+				    		<p><strong>Language and Behavior Profile for Coaching</strong></p>
+				    		<p><small class="text-mute">Asia Mind Dynamics - 2013</small></p>
+				    		<a href="">View Certificate</a>
+				    	</div>
+				    </div>
 				</div>
 			</div>
-		</div>	
-		<div class="portfolio-main container">
-			<h2 class="text-center">Portfolio</h2>
 		</div>
-		<div class="testimonials-main container">
+
+		<div id="portfolio" class="portfolio-main container">
+			<h2 class="text-center">Portfolio</h2>
+			<div class="row">
+				<div class="text-center col-lg-4 col-md-4">
+					<a target="_blank" href="https://niroes.herokuapp.com">
+						<div>
+							<img src="pmp.png" alt="Niro" width="250px" height="auto">
+						</div>
+						<p>A platform to serve as your social resume and allows sustainable events organizers to connect with the philantropist</p>
+					</a>
+				</div>
+				<div class="text-center col-lg-4 col-md-4">
+					<a target="_blank" href="https://s-p-o-t.herokuapp.com">
+						<div>
+							<img src="pmp.png" alt="Niro" width="250px" height="auto">
+						</div>
+						<p>A platform for the public to "spot" and report prices of <em>ANYTHING</em> such that the others are empowered to shop smart and never get cheated again</p>
+					</a>
+				</div>
+
+			</div>
+		</div>
+		<div id="testimonials" class="testimonials-main container">
 			<h2 class="text-center">Testimonials</h2>
 		</div>
 		 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

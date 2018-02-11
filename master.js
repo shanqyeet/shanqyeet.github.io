@@ -1,5 +1,5 @@
 
-$(document).ready(function() {
+$(document).ready(function () {
  $('#html').popover({
         trigger:'hover',
         content:"HTML 5",
@@ -54,6 +54,71 @@ $('#photoshop').popover({
         trigger:'hover',
         content:"Photoshop",
         placement:'bottom'
+    });
+
+
+ $aboutMeTab = $("#about-me-tab");
+ $aboutMe = $("#about-me");
+ $resumeTab = $("#resume-tab");
+ $resume = $("#resume");
+ $portfolioTab = $("#portfolio-tab");
+ $portfolio = $("#portfolio");
+ $testimonialsTab = $("#testimonials-tab");
+ $testimonials = $("#testimonials");
+
+    $aboutMe.hide();
+    $resume.hide();
+    $portfolio.hide();
+    $testimonials.hide();
+
+
+    $aboutMeTab.on("click", function(){
+        $aboutMe.show();
+        $resume.hide();
+        $portfolio.hide();
+        $testimonials.hide();
+
+        $('html,body').animate({
+        scrollTop: $aboutMe.offset().top},
+        'slow');
+
+    });
+
+
+    $resumeTab.on("click", function(){
+        $resume.show();
+        $aboutMe.hide();
+        $portfolio.hide();
+        $testimonials.hide();
+
+        $('html,body').animate({
+        scrollTop: $resume.offset().top},
+        'slow');
+
+    });
+
+    $portfolioTab.on("click", function(){
+        $portfolio.show();
+        $resume.hide();
+        $aboutMe.hide();
+        $testimonials.hide();
+
+        $('html,body').animate({
+        scrollTop: $portfolio.offset().top},
+        'slow');
+
+    });
+
+    $testimonialsTab.on("click", function(){
+        $testimonials.show();
+        $resume.hide();
+        $aboutMe.hide();
+        $portfolio.hide();
+
+        $('html,body').animate({
+        scrollTop: $testimonials.offset().top},
+        'slow');
+
     });
 
  });
