@@ -1,5 +1,9 @@
 
 $(document).ready(function () {
+
+
+// badges effects
+
  $('#html').popover({
         trigger:'hover',
         content:"HTML 5",
@@ -55,6 +59,8 @@ $('#photoshop').popover({
         content:"Photoshop",
         placement:'bottom'
     });
+
+// tabs effects
 
 
  $aboutMeTab = $("#about-me-tab");
