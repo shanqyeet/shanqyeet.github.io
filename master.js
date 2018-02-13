@@ -7,32 +7,32 @@ $(document).ready(function () {
  $('#html').popover({
         trigger:'hover',
         content:"HTML 5",
-        placement:'bottom'
+        placement:'top'
     });
 $('#css').popover({
         trigger:'hover',
         content:"CSS 3",
-        placement:'bottom'
+        placement:'top'
     });
 $('#js').popover({
         trigger:'hover',
         content:"JavaScript",
-        placement:'bottom'
+        placement:'top'
     });
 $('#jquery').popover({
         trigger:'hover',
         content:"JQUERY",
-        placement:'bottom'
+        placement:'top'
     });
 $('#ruby').popover({
         trigger:'hover',
         content:"Ruby",
-        placement:'bottom'
+        placement:'top'
     });
 $('#rails').popover({
         trigger:'hover',
         content:"Rails",
-        placement:'bottom'
+        placement:'top'
     });
 $('#sql').popover({
         trigger:'hover',
@@ -46,7 +46,7 @@ $('#postgresql').popover({
     });
 $('#git').popover({
         trigger:'hover',
-        content:"Git5",
+        content:"Git",
         placement:'bottom'
     });
 $('#bootstrap').popover({
@@ -57,6 +57,12 @@ $('#bootstrap').popover({
 $('#photoshop').popover({
         trigger:'hover',
         content:"Photoshop",
+        placement:'bottom'
+    });
+
+$('#pmp').popover({
+        trigger:'hover',
+        content:"Project Management Professional",
         placement:'bottom'
     });
 
