@@ -191,7 +191,7 @@ nav a:focus {
 /* Effect 20: 3D side */
 .tabs {
     position: absolute;
-    bottom:100px;
+    bottom:50px;
     left:20%;
 }
 
