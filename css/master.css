@@ -271,6 +271,15 @@ nav a:focus {
     width: 100%;
 }
 
+.about-me-content div ol {
+    list-style-position: inside;
+}
+
+
+.list-indent {
+    text-indent: 30px;
+}
+
 /*Resume Education Map*/
 
 .resume-map-main {
